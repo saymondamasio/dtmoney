@@ -15,7 +15,7 @@ export function TransactionsTable() {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
 
   useEffect(() => {
-    api.get('/transactions').then((response) => setTransactions(response.data));
+    api.get('/transactions').then((response) => setTransactions(response.data.transactions));
   }, []);
 
   return (
@@ -33,9 +33,9 @@ export function TransactionsTable() {
         <tbody>
           {
            transactions.map((transaction) => (
-             <tr>
+             <tr key={transaction.id}>
                <td>{transaction.title}</td>
-               <td className="withdraw">{transaction.amount}</td>
+               <td className={transaction.type}>{transaction.amount}</td>
                <td>{transaction.category}</td>
                <td>{transaction.created_at}</td>
              </tr>
