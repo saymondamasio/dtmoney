@@ -1,5 +1,5 @@
 import {
-  createContext, ReactNode, useEffect, useState,
+  createContext, ReactNode, useContext, useEffect, useState,
 } from 'react';
 import { api } from '../services/api';
 
@@ -51,7 +51,13 @@ function TransactionsProvider({ children }: Props) {
   );
 }
 
+function useTransactions() {
+  const context = useContext(TransactionsContext);
+
+  return context;
+}
+
 export {
-  TransactionsContext,
+  useTransactions,
   TransactionsProvider,
 };
