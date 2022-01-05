@@ -1,0 +1,38 @@
+{
+  "name": "DTMoney",
+  "short_description": "Controle suas finanças de forma simples.",
+  "description": "Uma aplicação para controle financeiro simples e rápido. Nela você pode cadastrar suas despesas entradas. Você pode também visualizar o seu balanço, ou seja, o seu saldo atual.",
+  "images": [
+    "https://raw.githubusercontent.com/saymondamasio/dtmoney/main/.github/screenshot.jpg"
+  ],
+  "videos": [
+    "https://raw.githubusercontent.com/saymondamasio/dtmoney/main/.github/apresetation.gif"
+  ],
+  "techs": [
+    {
+      "name": "React.js",
+      "url": "https://reactjs.org/"
+    },
+    {
+      "name": "Mirage.js",
+      "url": "https://www.miragejs.com/"
+    },
+
+    {
+      "name": "Express.js",
+      "url": "https://expressjs.com/"
+    },
+    {
+      "name": "Typescript",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "name": "Eslint",
+      "url": "https://eslint.org/"
+    },
+    {
+      "name": "Styled Components",
+      "url": "https://styled-components.com/"
+    }
+  ]
+}
