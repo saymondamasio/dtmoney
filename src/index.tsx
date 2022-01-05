@@ -1,34 +1,11 @@
+import { createServer, Model } from 'miragejs';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createServer, Model } from 'miragejs';
 import App from './App';
 
 createServer({
   models: {
     transaction: Model,
-  },
-
-  seeds(server) {
-    server.db.loadData({
-      transactions: [
-        {
-          id: 1,
-          title: 'Transaction 1',
-          type: 'deposit',
-          amount: 100,
-          category: 'Food',
-          created_at: new Date('2020-01-01'),
-        },
-        {
-          id: 2,
-          title: 'Transaction 2',
-          type: 'withdraw',
-          amount: 1000,
-          category: 'Aluguel',
-          created_at: new Date('2020-01-01'),
-        },
-      ],
-    });
   },
 
   routes() {
