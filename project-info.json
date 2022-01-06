@@ -3,10 +3,10 @@
   "short_description": "Controle suas finanças de forma simples.",
   "description": "Uma aplicação para controle financeiro simples e rápido. Nela você pode cadastrar suas despesas entradas. Você pode também visualizar o seu balanço, ou seja, o seu saldo atual.",
   "images": [
-    "https://raw.githubusercontent.com/saymondamasio/dtmoney/main/.github/screenshot.jpg"
+    "https://raw.githubusercontent.com/saymondamasio/dtmoney/main/.github/screenshot-1.jpg"
   ],
   "videos": [
-    "https://raw.githubusercontent.com/saymondamasio/dtmoney/main/.github/apresentation.gif"
+    "https://raw.githubusercontent.com/saymondamasio/dtmoney/main/.github/demonstration.mp4"
   ],
   "techs": [
     {
