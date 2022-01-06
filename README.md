@@ -37,6 +37,10 @@
   <a href="#-license">License</a>
 </p>
 
+## 👨🏻‍💻 About the project
+
+<p>Uma aplicação para controle financeiro simples e rápido. Nela você pode cadastrar suas despesas entradas. Você pode também visualizar o seu balanço, ou seja, o seu saldo atual.</p>
+
 ## 🚀 Technologies
 
 Technologies that I used to develop this web client
