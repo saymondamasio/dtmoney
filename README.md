@@ -8,6 +8,8 @@
 
 <p align="center">Controle suas finanças de forma simples.</p>
 
+https://user-images.githubusercontent.com/50559834/152695873-63a66e99-28f1-44fe-b460-29dc7b9048b3.mp4
+
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/saymondamasio/dtmoney">
 
