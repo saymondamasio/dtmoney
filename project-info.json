@@ -8,6 +8,7 @@
   "videos": [
     "https://raw.githubusercontent.com/saymondamasio/dtmoney/main/.github/demonstration.mp4"
   ],
+  "link_preview": "https://saymondamasio.github.io/dtmoney",
   "techs": [
     {
       "name": "React.js",
